@@ -21,7 +21,6 @@ export default describe('GenericToken', function () {
       'TEST',
       startingSupply
     )
-
     // test
     mineNext()
     expect(await TestToken.balanceOf(owner.address)).to.equal(startingSupply)
